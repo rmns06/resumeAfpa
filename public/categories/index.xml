@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Résumé de mes site Afpa</title>
-    <link>https://eager-liskov-918ff8.netlify.com/categories/</link>
+    <link>https://cestcadeau.netlify.com/categories/</link>
     <description>Recent content in Categories on Résumé de mes site Afpa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <copyright>&amp;copy; Copyright notice</copyright>
     
-	<atom:link href="https://eager-liskov-918ff8.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cestcadeau.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
