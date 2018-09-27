@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "fr-FR"
 title = "Résumé de mes site Afpa"
 theme = "hugo-dusky-neon-potato-master"
