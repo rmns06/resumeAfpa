@@ -1,0 +1,60 @@
+baseURL = "http://example.org/"
+languageCode = "fr-FR"
+title = "Résumé de mes site Afpa"
+
+copyright = "&copy; Copyright notice"
+
+[params]
+  paginate = 10
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  twitter = "RomainS06"
+  facebook = "Rom Webdesign"
+  github = "Rmns06"
+  codepen = "Rmns06"
+  # Disqus shortname
+  disqus = ""
+  # Google Analytics API key.
+  ga_api_key = "Your Google Analytics tracking id"
+  # Logo image. This is displayed ogp image.
+
+
+[[menu.main]]
+    name = "Pas"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "De"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    identifier = "theme"
+    name = "Menu"
+    weight = 3
+
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 80
+
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = false
+
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 150
+  [[related.indices]]
+  name  = "author"
+  toLower = true
+  weight = 30
+  [[related.indices]]
+  name  = "tags"
+  weight = 100
+  [[related.indices]]
+  name  = "date"
+  weight = 10
+  pattern = "2017"
